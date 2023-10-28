@@ -63,7 +63,7 @@ const en = {
       pageTitle: "Teachers",
       teachers: {
         names: "Tobi & Christina",
-        src: "src/assets/images/teachers.png",
+        src: "/src/assets/images/teachers.png",
         description: [
           "Tobi got into contact with dancing during his teenage years and immediately fell in love with the endless possibilities of self expression. Always eager to learn and explore new concepts and possibilities, he intensively practiced a variety of couple and solo dances, including ballroom, line dance and contemporary.",
           "This wide foundation helped him to blend his technical expertise together with his musical creativity and made him into one of the most attentive and partnership focused dancers in the West Coast Swing Community.",

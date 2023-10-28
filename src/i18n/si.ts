@@ -63,7 +63,7 @@ const si = {
       pageTitle: "Učitelja",
       teachers: {
         names: "Tobi in Christina",
-        src: "src/assets/images/teachers.png",
+        src: "/src/assets/images/teachers.png",
         description: [
           "Tobi je prišel v stik s plesom v svojih najstniških letih in se takoj zaljubil v neskončne možnosti izražanja. Vedno željan učenja in raziskovanja novih konceptov je intenzivno vadil različne plese v parih in solo plese, vključno z družabnim plesom, linijskim plesom in sodobnim plesom.",
           "Ta široka osnova mu je pomagala združiti svojo tehnično strokovnost skupaj z glasbeno ustvarjalnostjo in ga spremenila v enega najbolj pozornih in na partnerstvo osredotočenih plesalcev v skupnosti west coast swinga.",

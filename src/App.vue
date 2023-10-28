@@ -2,29 +2,6 @@
 // Import components
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import HomePage from "./components/pages/HomePage.vue";
-import StaffPage from "./components/pages/StaffPage.vue";
-import EventLocationPage from "./components/pages/EventLocationPage.vue";
-import NotFoundPage from "./components/pages/NotFoundPage.vue";
-import SchedulePage from "./components/pages/SchedulePage.vue";
-import RegistrationPage from "./components/pages/RegistrationPage.vue";
-import PricingPage from "./components/pages/PricingPage.vue";
-import SaveTheDatePage from "./components/pages/SaveTheDatePage.vue";
-import TermsAndConditionsPage from "./components/pages/TermsAndConditionsPage.vue";
-
-const routes: any = {
-  "/": HomePage,
-  "/staff": StaffPage,
-  "/schedule": SchedulePage,
-  "/pricing": PricingPage,
-  "/location": EventLocationPage,
-  "/registration": RegistrationPage,
-  "/terms-and-conditions": TermsAndConditionsPage,
-};
-
-// const routes: any = {
-//   "/": SaveTheDatePage,
-// };
 
 export default {
   data() {
@@ -35,25 +12,22 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
-    HomePage,
-    StaffPage,
-    SchedulePage,
-    PricingPage,
-    EventLocationPage,
-    RegistrationPage,
-    TermsAndConditionsPage,
-    NotFoundPage,
-    SaveTheDatePage,
   },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || "/"] || NotFoundPage;
+  watch: {
+    $route() {
+      let lang =
+        typeof this.$route.params.lang === "string"
+          ? this.$route.params.lang
+          : "en";
+      this.$store.commit("changeLang", lang);
+
+      this.$i18n.locale = this.$store.state.lang;
     },
   },
-  mounted() {
-    window.addEventListener("hashchange", () => {
-      this.currentPath = window.location.hash;
-    });
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>
@@ -61,7 +35,7 @@ export default {
 <template>
   <HeaderComponent />
   <main>
-    <component :is="currentView" />
+    <router-view></router-view>
     <!-- <SaveTheDatePage /> -->
   </main>
   <FooterComponent />
