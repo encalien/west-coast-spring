@@ -1,8 +1,8 @@
 const en = {
   event: {
-    name: "West Coast SPRING",
+    name: "Winter Westie Weekend",
     location: "Ljubljana",
-    date: "5 - 7 May 2023",
+    date: "16 - 18 February 2024",
     welcomeText: "Join the fun!",
     tba: "To be announced."
   },
@@ -11,7 +11,7 @@ const en = {
     email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "",
     instagram: ""
   },
   home: {
@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
+          name: "Clement Turpain & Evgenia Itkina - Rising Stars - Global Grand Prix 2022",
+          src: "https://i.ytimg.com/vi/q-hnW8e1ypA/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=q-hnW8e1ypA"
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
+          name: "Clement Turpain & Evgenia Itkina - Routines - Warsaw Halloween Swing 2023",
+          src: "https://img.youtube.com/vi/XkyoPSJd-hk/sddefault.jpg",
+          href: "hthttps://www.youtube.com/watch?v=XkyoPSJd-hk"
         },
         {
-          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM"
+          name: 'Clement Turpain & Evgenia Itkina - Strictly Open Finals - German Open 2023',
+          src: "https://img.youtube.com/vi/7BVcBcbkwTw/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=7BVcBcbkwTw"
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
-          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
+          name: "Invitational - Alyssa Glanville & Clement Turpain | Spooky Westie Weekend 2022",
+          src: "https://img.youtube.com/vi/Wasy3YXzx-I/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Wasy3YXzx-I"
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
+          name: 'Raphael Ettedgui & Clement Turpain "Control" - Switch Routine - Berlin Swing Revolution 2022',
+          src: "https://img.youtube.com/vi/_UF-Zi4sPts/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=_UF-Zi4sPts"
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo"
+          name: "Improv of WCS - Carlos Procopio & Evgenia Itkina - German Open WCS 2023 Advanced J&J 2nd place",
+          src: "https://img.youtube.com/vi/iojJjjoRAA4/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=iojJjjoRAA4"
         },
       ]
     }
@@ -63,10 +63,11 @@ const en = {
       pageTitle: "Teachers",
       teachers: [
         {
-          names: "Daniel & Marina",
+          names: "Clem & Evi",
           description: [
-            "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
-            "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
+            "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together.",
+            "Clement, an All Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip- Hop, and Contemporary. Evi, an Advanced Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS",
+            "Clem & Evi love communication and connection in WCS, which allow them to co-create and express the music both as individual dancers and as a couple."
           ]
         }
       ]
@@ -74,7 +75,7 @@ const en = {
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
+        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and lead-follow concepts.",
         "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday."
       ]
     },
@@ -83,24 +84,24 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, May 5",
+          title: "Friday, February 16",
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics with Aleksandra",
-              description: "Included in Full pass or Party pass, as well as Friday party entrance fee.",
+              topic: "Back to Basics",
+              description: "Included in Full pass, as well as Friday party entrance fee.",
               class: "class"
             },
             {
               time: "21.00 - 01.00",
               topic: "Party",
-              description: "Entrance fee included in Full pass or Party pass.",
+              description: "Entrance fee included in Full pass.",
               class: "party"
             }
           ]
         },
         {
-          title: "Saturday, May 6",
+          title: "Saturday, February 17",
           items: [
             {
               time: "12.00 - 13.00",
@@ -135,7 +136,7 @@ const en = {
           ]
         },
         {
-          title: "Sunday, May 7",
+          title: "Sunday, February 18",
           items: [
             {
               time: "12.00 - 13.00",
@@ -163,13 +164,13 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 20 participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros and the party pass price for 5 euros."
+        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 15 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros."
       ],
-      priceTier: "Late Bird",
+      priceTier: "Early Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "80 euros",
+          price: "60 euros",
           includes: [
             "6 hours of workshops",
             "entrance fee to both parties"
@@ -177,17 +178,10 @@ const en = {
         },
         {
           title: "Saturday Pass",
-          price: "60 euros",
+          price: "40 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance fee to Saturday party"
-          ]
-        },
-        {
-          title: "Party Pass",
-          price: "25 euros",
-          includes: [
-            "entrance fee to both parties"
           ]
         },
       ]
@@ -280,9 +274,9 @@ const en = {
         {
           value: "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 19 March 2023, the received payment will be refunded fully.",
-            "For cancellation requests received between 20 March up to and including 2 April 2023, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on April 3 2023 or later, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 31 December 2023, the received payment will be refunded fully.",
+            "For cancellation requests received between 1 January 2024 up to and 31 January 2024, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 1 February 2024 or later, the received payment will not be refunded.",
           ]
         },
         {
