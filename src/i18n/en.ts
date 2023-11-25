@@ -11,7 +11,7 @@ const en = {
     email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
-    facebook: "",
+    facebook: "https://www.facebook.com/events/758279966129500",
     instagram: ""
   },
   home: {
@@ -67,7 +67,7 @@ const en = {
           src: "/src/assets/images/teachers.jpg",
           description: [
             "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together.",
-            "Clement, an All Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip- Hop, and Contemporary. Evi, an Advanced Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS",
+            "Clement, an All Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip- Hop, and Contemporary. Evi, an Advanced Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS.",
             "Clem & Evi love communication and connection in WCS, which allow them to co-create and express the music both as individual dancers and as a couple."
           ]
         }

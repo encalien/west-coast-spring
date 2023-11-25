@@ -1,8 +1,8 @@
 const si = {
   event: {
-    name: "West Coast SPRING",
+    name: "Winter Westie Weekend",
     location: "Ljubljana",
-    date: "5. - 7. maj 2023",
+    date: "16. - 18. februar 2024",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu."
   },
@@ -11,7 +11,7 @@ const si = {
     email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "https://www.facebook.com/events/758279966129500",
     instagram: ""
   },
   home: {
@@ -25,34 +25,34 @@ const si = {
       ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
+          name: "Clement Turpain & Evgenia Itkina - Rising Stars - Global Grand Prix 2022",
+          src: "https://i.ytimg.com/vi/q-hnW8e1ypA/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=q-hnW8e1ypA"
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
+          name: "Clement Turpain & Evgenia Itkina - Routines - Warsaw Halloween Swing 2023",
+          src: "https://img.youtube.com/vi/XkyoPSJd-hk/sddefault.jpg",
+          href: "hthttps://www.youtube.com/watch?v=XkyoPSJd-hk"
         },
         {
-          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM"
+          name: 'Clement Turpain & Evgenia Itkina - Strictly Open Finals - German Open 2023',
+          src: "https://img.youtube.com/vi/7BVcBcbkwTw/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=7BVcBcbkwTw"
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
-          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
+          name: "Invitational - Alyssa Glanville & Clement Turpain | Spooky Westie Weekend 2022",
+          src: "https://img.youtube.com/vi/Wasy3YXzx-I/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Wasy3YXzx-I"
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
+          name: 'Raphael Ettedgui & Clement Turpain "Control" - Switch Routine - Berlin Swing Revolution 2022',
+          src: "https://img.youtube.com/vi/_UF-Zi4sPts/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=_UF-Zi4sPts"
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo"
+          name: "Improv of WCS - Carlos Procopio & Evgenia Itkina - German Open WCS 2023 Advanced J&J 2nd place",
+          src: "https://img.youtube.com/vi/iojJjjoRAA4/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=iojJjjoRAA4"
         },
       ]
     }
@@ -63,10 +63,12 @@ const si = {
       pageTitle: "Učitelja",
       teachers: [
         {
-          names: "Daniel in Marina",
+          names: "Clem & Evi",
+          src: "/src/assets/images/teachers.jpg",
           description: [
-            "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
-            "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
+            "Clevi - Clem in Evi - sta predana plesalca West Coast Swing, bazirana v Berlinu. Vsak od njiju ima za sabo že desetletje plesnih izkušenj, tudi skupaj že dolgo plešeta in poučujeta.",
+            "Clement, je All Star leaader in Advanced follower. Plesu prinaša edinstven čut za muzikalnost in kreativnost, k čemur gotovo pripomorejo njegova glasbena izobrazba in udejstvovanje pri solo plesih, kot so balet, hip hop in sodobni ples. Evi, Advanced follower je profesionalna plesalka sodobnih plesov, baleta in jazza doda west coast swingu svoj unikaten čut za gibanje in plesno tehniko.",
+            "Clem in Evi obožujeta komunikacijo v west coast swingu in povezavo med plesnima partnerjema, ki jima omogoča ustvarjalnost in glasbeno izražanje tako kot posameznikoma kot tudi kot partnerjema."
           ]
         }
       ]
@@ -75,7 +77,7 @@ const si = {
       title: "Zahtevnostna stopnja",
       descriptionText: [
         "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
-        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto."
+        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto.",
       ]
     },
     schedule: {
@@ -83,24 +85,24 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 5. maj",
+          title: "Petek, 16. februar",
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics z Aleksandro",
-              description: "Vstopnina vključena v ceno vseh paketov in vstopnino petkove zabave.",
+              topic: "Back to Basics",
+              description: "Vstopnina vključena v ceno Full pass paketa in vstopnino petkove zabave.",
               class: "class"
             },
             {
               time: "20.00 - 01.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket.",
+              description: "Vstopnina vključena v ceno Full pass paketa.",
               class: "party"
             }
           ]
         },
         {
-          title: "Sobota, 6. maj",
+          title: "Sobota, 17. februar",
           items: [
             {
               time: "12.00 - 13.00",
@@ -129,13 +131,13 @@ const si = {
             {
               time: "20.00 - 03.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vseh paketov.",
+              description: "Vstopnina vključena v ceno obeh paketov.",
               class: "party"
             }
           ]
         },
         {
-          title: "Nedelja, 7. maj",
+          title: "Nedelja, 18. februar",
           items: [
             {
               time: "12.00 - 13.00",
@@ -163,13 +165,13 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr."
+        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 15 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
-      priceTier: "Zadnja cena",
+      priceTier: "Prva cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "80 evr",
+          price: "60 evr",
           includes: [
             "6 ur delavnic",
             "vstopnina za obe zabavi"
@@ -177,17 +179,10 @@ const si = {
         },
         {
           title: "Sobotni paket",
-          price: "60 evr",
+          price: "40 evr",
           includes: [
             "3 ure delavnic v soboto",
             "vstopnina za sobotno zabavo"
-          ]
-        },
-        {
-          title: "Večerni paket",
-          price: "25 evr",
-          includes: [
-            "vstopnina za obe zabavi"
           ]
         },
       ]
