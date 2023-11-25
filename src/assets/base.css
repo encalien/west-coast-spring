@@ -8,22 +8,22 @@
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #FF66C4;
-  --accent-2: #FFDE59;
-  --accent-3: #5CE1E6;
-  --accent-4: #8952FF;
+  --accent-1: #6EBCFD;
+  --accent-2: #c8e5fd;
+  --accent-3: #0c60a4;
+  /* --accent-4: #8952FF; */
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
-  --dark-1: #211E52;
-  --dark-2: #2D2872;
+  --dark-1: #05090C;
+  /* --dark-2: #2D2872; */
 
-  --light: #C6C5CD;
+  --light: #F7FBFF;
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--white);
+  --color-background: var(--light);
   --color-background-soft: var(--white-soft);
   --color-background-mute: var(--white-mute);
   --color-background-alt: var(--dark-1);
@@ -31,7 +31,7 @@
   --color-text: var(--black);
   --color-text-soft: var(--black-soft);
   --color-text-mute: var(--black-mute);
-  --color-text-alt: var(--white-soft);
+  --color-text-alt: var(--light);
   --color-text-accent: var(--accent-1);
   
   --section-gap: 60px;
@@ -39,8 +39,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--black);
-    --color-background-soft: var(--black-soft);
+    --light: #c8e5fd;
+    --accent-2: var(--accent-3);
+  
+    --color-background: var(--dark-1);
+    --color-background-soft: var(--dark-1);
     --color-background-mute: var(--black-mute);
     --color-background-alt: var(--light);
     
@@ -48,7 +51,7 @@
     --color-text-soft: var(--white-soft);
     --color-text-mute: var(--white-mute);
     --color-text-alt: var(--dark-1);
-    --color-text-accent: var(--dark-1);
+    --color-text-accent: var(--accent-1);
   }
 }
 

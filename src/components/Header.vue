@@ -90,13 +90,13 @@
         {{ $t('location.pageTitle') }}
       </router-link>
     </div>
-    <div class="flex-item menu-item" 
+    <!-- <div class="flex-item menu-item" 
          :class="{ 'active': isMobileMenuOpen }"
          @click="closeAllMenus()">
       <router-link :to="`/${$store.state.lang}/registration`" class="menu-item-link">
         {{ $t('registration.pageTitle') }}
       </router-link>
-    </div>
+    </div> -->
     <div id="social-icons" 
          class="menu-item flex-container flex-container-row" 
          :class="{ 'active': isMobileMenuOpen }"
@@ -150,7 +150,7 @@
     display: block;
     width: 100%;
     padding: 0.5rem;
-    color: var(--color-text-accent);
+    color: var(--color-text-alt);
     filter: brightness(100%);
     cursor: pointer;
   }
@@ -176,7 +176,7 @@
     flex-direction: column;
     align-items: start;
     background-color: var(--color-background-alt);
-    border: 1px solid var(--light);
+    border: 1px solid var(--accent-1);
     border-top: none;
   }
 
@@ -266,4 +266,17 @@
     width: 1.2rem;
   }
 }
+  
+@media (prefers-color-scheme: dark) {
+    #menu, #menu .menu-item-link, #menu .dropdown-menu-item {
+      background-color: var(--light);
+      color: var(--dark-1);
+    }
+
+    #menu .menu-item-link:hover, #menu .dropdown-menu-item:hover, #menu .menu-item-link.active {
+      background-color: var(--dark-1);
+      color: var(--light);
+    }
+  }
+
 </style>

@@ -12,13 +12,13 @@ export default {
 
 <template>
   <section id="landing">
-    <img src="/src/assets/images/website_landing_narrow.png" alt="banner" id="banner">
+    <img src="/src/assets/images/website_landing_landscape.png" alt="banner" id="banner">
     <div class="landing-content">
       <!-- <h1>{{ $t('event.name') }}</h1>
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
-      <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a>
+      <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
   <section id="video-collage">
@@ -53,7 +53,7 @@ export default {
   }
 
   #landing {
-    background-color: var(--light);
+    background-color: var(--accent-2);
     color: var(--dark-1);
     width: 100vw;
     display: flex;
@@ -86,7 +86,7 @@ export default {
     align-items: center;
     overflow: hidden;
     position: relative;
-    color: var(--white-soft);
+    color: var(--light);
   }
   
   .video-collage-content > a > h3 {
@@ -167,6 +167,13 @@ export default {
     .video-collage-content > a {
       width: 100% !important;
       height: fit-content !important;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    #landing {
+      background-color: var(--light);
+      color: var(--dark-1);
     }
   }
 </style>

@@ -11,8 +11,7 @@
       <p><a :href="'mailto:' + $t('contact.email')">{{ $t('contact.email') }}</a></p>
     </div>
     <div class="footer-item">
-      <p>{{ $t('event.name') }}</p>
-      <p>&copy;2023</p>
+      <p>&copy; {{ $t('event.name') }} 2024</p>
     </div>
   </footer>
 </template>
@@ -20,7 +19,7 @@
 <style scoped>
   #footer {
     width: 100%;
-    padding: 1rem;
+    padding: 4rem;
     background-color: var(--color-background-alt);
     color: var(--color-text-alt);
   }

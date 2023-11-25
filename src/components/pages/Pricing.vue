@@ -37,6 +37,7 @@ export default {
   #passes {
     justify-content: space-between;
     gap: 2rem;
+    margin-top: 4rem;
   }
 
   .pass {
@@ -73,10 +74,6 @@ export default {
     background-color: var(--accent-2);
   }
 
-  .bg-3 {
-    background-color: var(--accent-3);
-  }
-
   .price-tier-band {
     background-color: var(--color-background-alt);
     color: var(--color-text-alt);
@@ -109,10 +106,6 @@ export default {
   }
 
   @media (prefers-color-scheme: dark) {
-    .bg-1 {
-      background-color: var(--dark-1);
-    }
-
     hr {
       border-color: var(--light);
     }
