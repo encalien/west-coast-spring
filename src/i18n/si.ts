@@ -64,7 +64,7 @@ const si = {
       teachers: [
         {
           names: "Clem & Evi",
-          src: "/src/assets/images/teachers.jpg",
+          src: "/images/teachers.jpg",
           description: [
             "Clevi - Clem in Evi - sta predana plesalca West Coast Swing, bazirana v Berlinu. Vsak od njiju ima za sabo že desetletje plesnih izkušenj, tudi skupaj že dolgo plešeta in poučujeta.",
             "Clement, je All Star leaader in Advanced follower. Plesu prinaša edinstven čut za muzikalnost in kreativnost, k čemur gotovo pripomorejo njegova glasbena izobrazba in udejstvovanje pri solo plesih, kot so balet, hip hop in sodobni ples. Evi, Advanced follower je profesionalna plesalka sodobnih plesov, baleta in jazza doda west coast swingu svoj unikaten čut za gibanje in plesno tehniko.",
