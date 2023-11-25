@@ -18,7 +18,9 @@ export default {
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
-      <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
+      <router-link :to="`/${$store.state.lang}/registration`" class="btn btn-primary">
+        {{ $t('registration.pageTitle') }}
+      </router-link>
     </div>
   </section>
   <section id="video-collage">
@@ -66,7 +68,7 @@ export default {
   .landing-content {
     flex: 1 0 auto;
     text-align: center;
-    padding: 2rem 2rem 0;
+    padding: 0 2rem 2rem;
   }
 
   #video-collage {

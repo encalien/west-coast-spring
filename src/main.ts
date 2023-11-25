@@ -57,7 +57,7 @@ const routes: any = [
   { path: '/:lang(en|si)/workshops/schedule', component: Schedule, },
   { path: '/:lang(en|si)/pricing', component: Pricing, },
   { path: '/:lang(en|si)/location', component: EventLocation, },
-  //{ path: ':lang(en|si)/registration', component: Registration, },
+  { path: '/:lang(en|si)/registration', component: Registration, },
   { path: '/:lang(en|si)/terms-and-conditions', component: TermsAndConditions },
 ]
 
