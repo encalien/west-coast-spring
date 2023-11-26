@@ -165,7 +165,7 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 15 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros."
+        "Early bird price will be offered to first 10 accepted participants (regardless of pass type), normal bird price to the next 15 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros."
       ],
       priceTier: "Early Bird",
       passes: [

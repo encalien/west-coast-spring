@@ -90,13 +90,13 @@ const si = {
             {
               time: "20.00 - 21.00",
               topic: "Back to Basics",
-              description: "Vstopnina vključena v ceno Full pass paketa in vstopnino petkove zabave.",
+              description: "Vstopnina vključena v ceno Vikend paketa in vstopnino petkove zabave.",
               class: "class"
             },
             {
               time: "20.00 - 01.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno Full pass paketa.",
+              description: "Vstopnina vključena v ceno Vikend paketa.",
               class: "party"
             }
           ]
@@ -165,7 +165,7 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 15 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
+        "Najnižja cena velja za prvih 10 sprejetih prijav (ne glede na vrsto vstopnice), srednja za naslednjih 15 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
       priceTier: "Prva cena",
       passes: [
