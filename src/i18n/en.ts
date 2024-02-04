@@ -167,11 +167,11 @@ const en = {
         "For this event we will have 3 price tiers - Early Bird, Normal Bird and Late Bird.",
         "Early bird price will be offered to first 10 accepted participants (regardless of pass type), normal bird price to the next 15 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros."
       ],
-      priceTier: "Normal Bird",
+      priceTier: "Late Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "70 euros",
+          price: "80 euros",
           includes: [
             "6 hours of workshops",
             "entrance fee to both parties"
@@ -179,7 +179,7 @@ const en = {
         },
         {
           title: "Saturday Pass",
-          price: "50 euros",
+          price: "60 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance fee to Saturday party"
