@@ -130,7 +130,7 @@ const si = {
             },
             {
               time: "20.00 - 03.00",
-              topic: "Zabava",
+              topic: "Zabava v Dancing Buddha",
               description: "Vstopnina vključena v ceno obeh paketov.",
               class: "party"
             }

@@ -130,7 +130,7 @@ const en = {
             },
             {
               time: "20.00 - 03.00",
-              topic: "Party",
+              topic: "Party in Dancing Buddha",
               description: "Entrance fee included in all passes.",
               class: "party"
             }
