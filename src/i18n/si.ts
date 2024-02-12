@@ -190,17 +190,32 @@ const si = {
   },
   location: {
     pageTitle: "Lokacija",
-    venue: {
-      locationText: "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
+    venue: [
+      {
+        locationText: "Delavnice in petkov večer bodo potekale v plesni šoli Studio Dansa, na naslovu:",
+        address: {
+          name: "Studio Dansa",
+          address: "Vilharjeva cesta 3",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        parkingText: "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
+        accessText: "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:",
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1707734478558!5m2!1ssl!2ssi"
       },
-      parkingText: "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
-      accessText: "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:"
-    },
+      {
+        locationText: "Sobotni večer bo potekal v plesni šoli Dancing Buddha, na naslovu:",
+        address: {
+          name: "Dancing Buddha",
+          address: "Stožice 30",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        busText: "Dostop z avtobusom je možen z linijami 6, 8, 11 (Ruski car) ali 20 (Nove Stožice P+R)",
+        parkingText: "Pred šolo je tudi majhno parkirišče.",
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476533fa9864abd1%3A0x3d36352017b94adc!2sDancing%20Buddha%20Studio!5e0!3m2!1ssl!2ssi!4v1707734331376!5m2!1ssl!2ssi"
+      }
+    ],
     hotel: {
       title: "Prenočišča",
       suggestionsText: [

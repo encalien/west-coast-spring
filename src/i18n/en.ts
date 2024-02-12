@@ -190,17 +190,32 @@ const en = {
   },
   location: {
     pageTitle: "Location",
-    venue: {
-      locationText: "The workshops will be held at Studio Dansa dance school, located at:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
+    venue: [
+      {
+        locationText: "The workshops and Friday's party will be held at Studio Dansa dance school, located at:",
+        address: {
+          name: "Studio Dansa",
+          address: "Vilharjeva cesta 3",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
+        accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:",
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1707734478558!5m2!1ssl!2ssi"
       },
-      parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
-      accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:"
-    },
+      {
+        locationText: "The Saturday's party will be held at Dancing Buddha dance school, located at:",
+        address: {
+          name: "Dancing Buddha",
+          address: "Stožice 30",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        busText: "Access with bus is possible with multiple lines. Take 6, 8 or 11 to 'Ruski car' or 20 to 'Nove Stožice P+R'.",
+        parkingText: "There's also a small parking lot in front of the school.",
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476533fa9864abd1%3A0x3d36352017b94adc!2sDancing%20Buddha%20Studio!5e0!3m2!1ssl!2ssi!4v1707734331376!5m2!1ssl!2ssi"
+      },
+    ],
     hotel: {
       title: "Accommodation",
       suggestionsText: [
