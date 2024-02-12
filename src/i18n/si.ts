@@ -89,14 +89,14 @@ const si = {
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics",
+              topic: "Back to Basics z Lotte Meier",
               description: "Vstopnina vključena v ceno Vikend paketa in vstopnino petkove zabave.",
               class: "class"
             },
             {
               time: "20.00 - 01.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno Vikend paketa.",
+              description: "Vstopnina vključena v ceno Vikend paketa, sicer 5 evr.",
               class: "party"
             }
           ]

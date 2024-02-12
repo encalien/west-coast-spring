@@ -89,14 +89,14 @@ const en = {
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics",
+              topic: "Back to Basics with Lotte Meier",
               description: "Included in Full pass, as well as Friday party entrance fee.",
               class: "class"
             },
             {
               time: "21.00 - 01.00",
               topic: "Party",
-              description: "Entrance fee included in Full pass.",
+              description: "Entrance fee included in Full pass, otherwise 5 eur.",
               class: "party"
             }
           ]
