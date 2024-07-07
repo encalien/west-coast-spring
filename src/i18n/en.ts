@@ -61,21 +61,33 @@ const en = {
     pageTitle: "Workshops",
     staff: {
       pageTitle: "Teachers",
-      teachers: {
-        names: "Tobi & Christina",
-        src: "/src/assets/images/teachers.png",
-        description: [
-          "Tobi got into contact with dancing during his teenage years and immediately fell in love with the endless possibilities of self expression. Always eager to learn and explore new concepts and possibilities, he intensively practiced a variety of couple and solo dances, including ballroom, line dance and contemporary.",
-          "This wide foundation helped him to blend his technical expertise together with his musical creativity and made him into one of the most attentive and partnership focused dancers in the West Coast Swing Community.",
-          "Starting as an assistent teacher and later on leading his own classes as instructor, Tobi has been sharing his knowledge for 5 years and counting. While following his passion for this dance, he traveled the whole continent and reached the WSDC Advanced division. He is a very well-known face on the social floor not only for his dance skills, but also for napping in unconventional places.",
-          "\n\n",
-          "Christina was just a small child when ballet sparked her passion for dancing. Since then she also developed a keen interest for couple dancing, starting with ballroom, which later on moved her to pursue and finish a professional education as certified dance instructor.",
-          "When Christina discovered West Coast Swing, she was immediately hooked and invested countless hours to study the dance. In order to uncover as many of its facets as possible she traveled many countries and took up many of the region specialities in style.",
-          "While most dancers excell in one role Christina mastered both leading and following and is one of the few dancers competing in the WSDC Advanced division in both roles. Her unique combination of skills allow her to lead with special attention to her follower, and influence and co-creating the dance when following.",
-          "\n\n",
-          "Together Tobi and Christina value expression of partnership through joint movements, which they further elevate with their individual styling and powerful setups. They are at the forefront of the recently termed 'German Connection', embracing constant connection and all the possibilities that come with it.",
-        ],
-      },
+      teachers: [
+        {
+          name: "Tobi",
+          src: "/src/assets/images/tobi.png",
+          description: [
+            "Tobi got into contact with dancing during his teenage years and immediately fell in love with the endless possibilities of self expression. Always eager to learn and explore new concepts and possibilities, he intensively practiced a variety of couple and solo dances, including ballroom, line dance and contemporary.",
+            "This wide foundation helped him to blend his technical expertise together with his musical creativity and made him into one of the most attentive and partnership focused dancers in the West Coast Swing Community.",
+            "Starting as an assistent teacher and later on leading his own classes as instructor, Tobi has been sharing his knowledge for 5 years and counting. While following his passion for this dance, he traveled the whole continent and reached the WSDC Advanced division. He is a very well-known face on the social floor not only for his dance skills, but also for napping in unconventional places.",
+          ],
+        },
+        {
+          name: "Christina",
+          src: "/src/assets/images/christina.png",
+          description: [
+            "Christina was just a small child when ballet sparked her passion for dancing. Since then she also developed a keen interest for couple dancing, starting with ballroom, which later on moved her to pursue and finish a professional education as certified dance instructor.",
+            "When Christina discovered West Coast Swing, she was immediately hooked and invested countless hours to study the dance. In order to uncover as many of its facets as possible she traveled many countries and took up many of the region specialities in style.",
+            "While most dancers excell in one role Christina mastered both leading and following and is one of the few dancers competing in the WSDC Advanced division in both roles. Her unique combination of skills allow her to lead with special attention to her follower, and influence and co-creating the dance when following.",
+            "\n\n",
+            "Together Tobi and Christina value expression of partnership through joint movements, which they further elevate with their individual styling and powerful setups. They are at the forefront of the recently termed 'German Connection', embracing constant connection and all the possibilities that come with it.",
+          ],
+        },
+        {
+          description: [
+            "Together Tobi and Christina value expression of partnership through joint movements, which they further elevate with their individual styling and powerful setups. They are at the forefront of the recently termed 'German Connection', embracing constant connection and all the possibilities that come with it.",
+          ],
+        },
+      ],
     },
     level: {
       title: "Level",

@@ -61,21 +61,33 @@ const si = {
     pageTitle: "Delavnice",
     staff: {
       pageTitle: "Učitelja",
-      teachers: {
-        names: "Tobi in Christina",
-        src: "/src/assets/images/teachers.png",
-        description: [
-          "Tobi je prišel v stik s plesom v svojih najstniških letih in se takoj zaljubil v neskončne možnosti izražanja. Vedno željan učenja in raziskovanja novih konceptov je intenzivno vadil različne plese v parih in solo plese, vključno z družabnim plesom, linijskim plesom in sodobnim plesom.",
-          "Ta široka osnova mu je pomagala združiti svojo tehnično strokovnost skupaj z glasbeno ustvarjalnostjo in ga spremenila v enega najbolj pozornih in na partnerstvo osredotočenih plesalcev v skupnosti west coast swinga.",
-          "Začel je kot pomočnik učitelja in kasneje vodil svoje lastne tečaje kot inštruktor. Tobi že 5 let in več deli svoje znanje. Sledil je svoji strasti do tega plesa, prepotoval celoten kontinent in dosegel WSDC Advanced divizijo. Je zelo prepoznaven na plesišču, ne samo zaradi svojih plesnih veščin, ampak tudi zaradi spanja na nekonvencionalnih mestih.",
-          "\n\n",
-          "Christina je še majhna, ko je balet vžgal njeno strast do plesa. Od takrat je razvila tudi močno zanimanje za ples v parih, začela je z družabnim plesom, kar jo je kasneje spodbudilo k poklicni izobrazbi kot certificirana plesna inštruktorica.",
-          "Ko je Christina odkrila west coast swing, jo je ta takoj pritegnil in vložila je nešteto ur v študij plesa. Da bi odkrila čim več njegovih vidikov, je potovala po številnih državah in prevzela mnoge regijske posebnosti v slogu.",
-          "Medtem ko večina plesalcev izstopa v eni vlogi, Christina obvlada tako vodenje kot sledenje in je ena redkih plesalk, ki tekmuje v WSDC Advanced diviziji v obeh vlogah. Njena edinstvena kombinacija veščin ji omogoča, da vodi s posebno pozornostjo do svojega partnerja in vpliva na sooblikovanje plesa, kadar sledi.",
-          "\n\n",
-          "Skupaj Tobi in Christina cenita izražanje partnerstva skozi skupne gibe, kar še dodatno nadgrajujeta s svojim individualnim stilom. Sta v ospredju nedavno poimenovane 'nemške povezave', ki temelji na stalni povezavi in izkorišča vse možnosti, ki jih ta prinaša.",
-        ],
-      },
+      teachers: [
+        {
+          name: "Tobi",
+          src: "/src/assets/images/tobi.png",
+          description: [
+            "Tobi je prišel v stik s plesom v svojih najstniških letih in se takoj zaljubil v neskončne možnosti izražanja. Vedno željan učenja in raziskovanja novih konceptov je intenzivno vadil različne plese v parih in solo plese, vključno z družabnim plesom, linijskim plesom in sodobnim plesom.",
+            "Ta široka osnova mu je pomagala združiti svojo tehnično strokovnost skupaj z glasbeno ustvarjalnostjo in ga spremenila v enega najbolj pozornih in na partnerstvo osredotočenih plesalcev v skupnosti west coast swinga.",
+            "Začel je kot pomočnik učitelja in kasneje vodil svoje lastne tečaje kot inštruktor. Tobi že 5 let in več deli svoje znanje. Sledil je svoji strasti do tega plesa, prepotoval celoten kontinent in dosegel WSDC Advanced divizijo. Je zelo prepoznaven na plesišču, ne samo zaradi svojih plesnih veščin, ampak tudi zaradi spanja na nekonvencionalnih mestih.",
+          ],
+        },
+        {
+          name: "Christina",
+          src: "/src/assets/images/christina.png",
+          description: [
+            "Christina je bila še majhna, ko je balet vžgal njeno strast do plesa. Od takrat je razvila tudi močno zanimanje za ples v parih, začela je z družabnim plesom, kar jo je kasneje spodbudilo k poklicni izobrazbi kot certificirana plesna inštruktorica.",
+            "Ko je Christina odkrila west coast swing, jo je ta takoj pritegnil in vložila je nešteto ur v študij plesa. Da bi odkrila čim več njegovih vidikov, je potovala po številnih državah in prevzela mnoge regijske posebnosti v slogu.",
+            "Medtem ko večina plesalcev izstopa v eni vlogi, Christina obvlada tako vodenje kot sledenje in je ena redkih plesalk, ki tekmuje v WSDC Advanced diviziji v obeh vlogah. Njena edinstvena kombinacija veščin ji omogoča, da vodi s posebno pozornostjo do svojega partnerja in vpliva na sooblikovanje plesa, kadar sledi.",
+            "\n\n",
+            "Skupaj Tobi in Christina cenita izražanje partnerstva skozi skupne gibe, kar še dodatno nadgrajujeta s svojim individualnim stilom. Sta v ospredju nedavno poimenovane 'nemške povezave', ki temelji na stalni povezavi in izkorišča vse možnosti, ki jih ta prinaša.",
+          ],
+        },
+        {
+          description: [
+            "Skupaj Tobi in Christina cenita izražanje partnerstva skozi skupne gibe, kar še dodatno nadgrajujeta s svojim individualnim stilom. Sta v ospredju nedavno poimenovane 'nemške povezave', ki temelji na stalni povezavi in izkorišča vse možnosti, ki jih ta prinaša.",
+          ],
+        },
+      ],
     },
     level: {
       title: "Zahtevnostna stopnja",

@@ -12,27 +12,33 @@ export default {
 
 <template>
   <section>
-    <h1>
-      {{ $t("workshops.staff.pageTitle") }}:
-      {{ $t("workshops.staff.teachers.names") }}
-    </h1>
-    <div class="flex-container flex-gap">
-      <div class="flex-item flex-basis-100 margin-0">
-        <!-- <h2>{{ $t('workshops.staff.teachers.names') }}</h2> -->
-        <p
-          v-for="(val, i) in messages.workshops.staff.teachers.description"
-          :key="i"
-        >
-          {{ $t(`workshops.staff.teachers.description[${i}]`) }}
-        </p>
-      </div>
+    <h1>{{ $t("workshops.staff.pageTitle") }}</h1>
+    <div
+      v-for="(teacher, t) in messages.workshops.staff.teachers"
+      :key="t"
+      style="margin-bottom: 2rem"
+    >
       <div
-        class="flex-item flex-basis-100 margin-0 flex-container flex-container-column"
+        class="flex-container flex-gap"
+        :class="t % 2 == 0 ? 'reverse-row' : ''"
       >
-        <img
-          :src="$t('workshops.staff.teachers.src')"
-          :alt="$t('workshops.staff.teachers.names')"
-        />
+        <div
+          v-if="messages.workshops.staff.teachers[t].src"
+          class="flex-item flex-basis-50 margin-0 flex-container flex-container-column"
+        >
+          <img
+            :src="$t(`workshops.staff.teachers[${t}].src`)"
+            :alt="$t(`workshops.staff.teachers[${t}].name`)"
+          />
+        </div>
+        <div class="flex-item flex-basis-100 margin-0">
+          <h2 v-if="messages.workshops.staff.teachers[t].name">
+            {{ $t(`workshops.staff.teachers[${t}].name`) }}
+          </h2>
+          <p v-for="(val, i) in teacher.description" :key="i">
+            {{ $t(`workshops.staff.teachers[${t}].description[${i}]`) }}
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -43,7 +49,15 @@ img {
   width: 100%;
 }
 
+.flex-container-column {
+  gap: 1rem;
+}
+
 .flex-basis-100 {
   flex-basis: 100%;
+}
+
+.reverse-row {
+  flex-direction: row-reverse;
 }
 </style>
