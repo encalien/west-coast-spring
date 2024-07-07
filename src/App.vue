@@ -24,6 +24,11 @@ export default {
       this.$i18n.locale = this.$store.state.lang;
     },
   },
+  created() {
+    if (window.location.pathname === "/") {
+      this.$router.replace("/en");
+    }
+  },
   methods: {
     scrollToTop() {
       window.scrollTo(0, 0);
