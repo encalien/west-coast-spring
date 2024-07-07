@@ -35,7 +35,7 @@ export default {
     </div>
 
     <!-- <p>{{ $t(`location.venue.accessText`) }}</p> -->
-    <!-- <img src="/src/assets/images/studio_dansa_entrance.jpg" alt="Entrance to Studio Dansa"> -->
+    <!-- <img src="/images/studio_dansa_entrance.jpg" alt="Entrance to Studio Dansa"> -->
   </section>
   <section>
     <h1>{{ $t("location.hotel.title") }}</h1>

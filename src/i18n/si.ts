@@ -64,7 +64,7 @@ const si = {
       teachers: [
         {
           name: "Tobi",
-          src: "/src/assets/images/tobi.png",
+          src: "/images/tobi.png",
           description: [
             "Tobi je prišel v stik s plesom v svojih najstniških letih in se takoj zaljubil v neskončne možnosti izražanja. Vedno željan učenja in raziskovanja novih konceptov je intenzivno vadil različne plese v parih in solo plese, vključno z družabnim plesom, linijskim plesom in sodobnim plesom.",
             "Ta široka osnova mu je pomagala združiti svojo tehnično strokovnost skupaj z glasbeno ustvarjalnostjo in ga spremenila v enega najbolj pozornih in na partnerstvo osredotočenih plesalcev v skupnosti west coast swinga.",
@@ -73,7 +73,7 @@ const si = {
         },
         {
           name: "Christina",
-          src: "/src/assets/images/christina.png",
+          src: "/images/christina.png",
           description: [
             "Christina je bila še majhna, ko je balet vžgal njeno strast do plesa. Od takrat je razvila tudi močno zanimanje za ples v parih, začela je z družabnim plesom, kar jo je kasneje spodbudilo k poklicni izobrazbi kot certificirana plesna inštruktorica.",
             "Ko je Christina odkrila west coast swing, jo je ta takoj pritegnil in vložila je nešteto ur v študij plesa. Da bi odkrila čim več njegovih vidikov, je potovala po številnih državah in prevzela mnoge regijske posebnosti v slogu.",

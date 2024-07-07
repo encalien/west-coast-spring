@@ -64,7 +64,7 @@ const en = {
       teachers: [
         {
           name: "Tobi",
-          src: "/src/assets/images/tobi.png",
+          src: "/images/tobi.png",
           description: [
             "Tobi got into contact with dancing during his teenage years and immediately fell in love with the endless possibilities of self expression. Always eager to learn and explore new concepts and possibilities, he intensively practiced a variety of couple and solo dances, including ballroom, line dance and contemporary.",
             "This wide foundation helped him to blend his technical expertise together with his musical creativity and made him into one of the most attentive and partnership focused dancers in the West Coast Swing Community.",
@@ -73,7 +73,7 @@ const en = {
         },
         {
           name: "Christina",
-          src: "/src/assets/images/christina.png",
+          src: "/images/christina.png",
           description: [
             "Christina was just a small child when ballet sparked her passion for dancing. Since then she also developed a keen interest for couple dancing, starting with ballroom, which later on moved her to pursue and finish a professional education as certified dance instructor.",
             "When Christina discovered West Coast Swing, she was immediately hooked and invested countless hours to study the dance. In order to uncover as many of its facets as possible she traveled many countries and took up many of the region specialities in style.",

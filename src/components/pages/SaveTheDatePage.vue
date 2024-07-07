@@ -1,7 +1,7 @@
 <template>
   <section id="landing">
     <a href="http://" target="_blank" rel="noopener noreferrer">
-      <img src="/src/assets/images/flyer.png" alt="banner" id="banner" />
+      <img src="/images/flyer.png" alt="banner" id="banner" />
     </a>
     <h1>Coming soon!</h1>
     <div id="social-icons" class="menu-item flex-container flex-container-row">

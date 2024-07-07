@@ -12,11 +12,7 @@ export default {
 
 <template>
   <section id="landing">
-    <img
-      src="/src/assets/images/website_landing_narrow.png"
-      alt="banner"
-      id="banner"
-    />
+    <img src="/images/website_landing_narrow.png" alt="banner" id="banner" />
     <div class="landing-content">
       <!-- <h1>{{ $t('event.name') }}</h1>
       <h2>{{ $t('event.location') }}</h2>
@@ -133,7 +129,7 @@ export default {
 
 @media screen and (max-width: 650px) {
   #banner {
-    content: url("/src/assets/images/website_landing_square.png");
+    content: url("/images/website_landing_square.png");
   }
 
   #landing {
