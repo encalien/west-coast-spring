@@ -1,30 +1,30 @@
 <script lang="ts">
 // Import components
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
-import Home from "./components/pages/Home.vue";
-import Staff from "./components/pages/Staff.vue";
-import EventLocation from "./components/pages/EventLocation.vue";
-import NotFound from "./components/pages/NotFound.vue";
-import Schedule from "./components/pages/Schedule.vue";
-import Registration from "./components/pages/Registration.vue";
-import Pricing from "./components/pages/Pricing.vue";
-import SaveTheDate from "./components/pages/SaveTheDate.vue";
-import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
-
-// const routes: any = {
-//   "/": Home,
-//   "/staff": Staff,
-//   "/schedule": Schedule,
-//   "/pricing": Pricing,
-//   "/location": EventLocation,
-//   "/registration": Registration,
-//   "/terms-and-conditions": TermsAndConditions,
-// };
+import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+import HomePage from "./components/pages/HomePage.vue";
+import StaffPage from "./components/pages/StaffPage.vue";
+import EventLocationPage from "./components/pages/EventLocationPage.vue";
+import NotFoundPage from "./components/pages/NotFoundPage.vue";
+import SchedulePage from "./components/pages/SchedulePage.vue";
+import RegistrationPage from "./components/pages/RegistrationPage.vue";
+import PricingPage from "./components/pages/PricingPage.vue";
+import SaveTheDatePage from "./components/pages/SaveTheDatePage.vue";
+import TermsAndConditionsPage from "./components/pages/TermsAndConditionsPage.vue";
 
 const routes: any = {
-  "/": SaveTheDate,
+  "/": HomePage,
+  "/staff": StaffPage,
+  "/schedule": SchedulePage,
+  "/pricing": PricingPage,
+  "/location": EventLocationPage,
+  "/registration": RegistrationPage,
+  "/terms-and-conditions": TermsAndConditionsPage,
 };
+
+// const routes: any = {
+//   "/": SaveTheDatePage,
+// };
 
 export default {
   data() {
@@ -33,21 +33,21 @@ export default {
     };
   },
   components: {
-    // Header,
-    // Footer,
-    // Home,
-    // Staff,
-    // Schedule,
-    // Pricing,
-    // EventLocation,
-    // Registration,
-    // TermsAndConditions,
-    // NotFound,
-    SaveTheDate,
+    HeaderComponent,
+    FooterComponent,
+    HomePage,
+    StaffPage,
+    SchedulePage,
+    PricingPage,
+    EventLocationPage,
+    RegistrationPage,
+    TermsAndConditionsPage,
+    NotFoundPage,
+    SaveTheDatePage,
   },
   computed: {
     currentView() {
-      return routes[this.currentPath.slice(1) || "/"] || NotFound;
+      return routes[this.currentPath.slice(1) || "/"] || NotFoundPage;
     },
   },
   mounted() {
@@ -59,12 +59,12 @@ export default {
 </script>
 
 <template>
-  <!-- <Header /> -->
+  <HeaderComponent />
   <main>
-    <!-- <component :is="currentView" /> -->
-    <SaveTheDate />
+    <component :is="currentView" />
+    <!-- <SaveTheDatePage /> -->
   </main>
-  <!-- <Footer /> -->
+  <FooterComponent />
 </template>
 
 <style scoped></style>

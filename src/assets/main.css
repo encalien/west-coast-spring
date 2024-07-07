@@ -2,12 +2,12 @@
 
 /* html tags */
 section {
-  /* margin: var(--section-gap) auto; */
+  margin: var(--section-gap) auto;
 }
 
 main {
-  /* padding: 40px 40px 0; */
-  height: 100vh;
+  padding: 40px 40px 0;
+  min-height: 100vh;
 }
 
 h1,
