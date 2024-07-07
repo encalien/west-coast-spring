@@ -9,57 +9,62 @@ import NotFound from "./components/pages/NotFound.vue";
 import Schedule from "./components/pages/Schedule.vue";
 import Registration from "./components/pages/Registration.vue";
 import Pricing from "./components/pages/Pricing.vue";
+import SaveTheDate from "./components/pages/SaveTheDate.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
 
+// const routes: any = {
+//   "/": Home,
+//   "/staff": Staff,
+//   "/schedule": Schedule,
+//   "/pricing": Pricing,
+//   "/location": EventLocation,
+//   "/registration": Registration,
+//   "/terms-and-conditions": TermsAndConditions,
+// };
+
 const routes: any = {
-  '/': Home,
-  '/staff': Staff,
-  '/schedule': Schedule,
-  '/pricing': Pricing,
-  '/location': EventLocation,
-  '/registration': Registration,
-  '/terms-and-conditions': TermsAndConditions
-}
+  "/": SaveTheDate,
+};
 
 export default {
   data() {
     return {
-      currentPath: window.location.hash
-    }
+      currentPath: window.location.hash,
+    };
   },
   components: {
-    Header,
-    Footer,
-    Home,
-    Staff,
-    Schedule,
-    Pricing,
-    EventLocation,
-    Registration,
-    TermsAndConditions,
-    NotFound
+    // Header,
+    // Footer,
+    // Home,
+    // Staff,
+    // Schedule,
+    // Pricing,
+    // EventLocation,
+    // Registration,
+    // TermsAndConditions,
+    // NotFound,
+    SaveTheDate,
   },
   computed: {
     currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || NotFound
-    }
+      return routes[this.currentPath.slice(1) || "/"] || NotFound;
+    },
   },
   mounted() {
-    window.addEventListener('hashchange', () => {
-		  this.currentPath = window.location.hash
-		})
-  }
-}
+    window.addEventListener("hashchange", () => {
+      this.currentPath = window.location.hash;
+    });
+  },
+};
 </script>
 
 <template>
-  <Header />
+  <!-- <Header /> -->
   <main>
-    <component :is="currentView" />
+    <!-- <component :is="currentView" /> -->
+    <SaveTheDate />
   </main>
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
