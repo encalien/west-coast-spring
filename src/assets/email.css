@@ -1,4 +1,4 @@
-@import './main.css';
+@import "./main.css";
 
 body {
   width: 100vw;
@@ -6,7 +6,7 @@ body {
 
 main {
   margin: 3rem 2rem;
-  padding: 2rem
+  padding: 2rem;
 }
 
 header > img {
@@ -21,19 +21,20 @@ p {
 
 a {
   text-decoration: none;
-  color: #BD8766;
+  color: #e06322;
 }
 
 a:visited {
-  color: #B14C31;
+  color: #74533e;
 }
 
 a:hover {
-  color: #FAB885;
+  color: #fab885;
 }
 
-a:focus, a:active {
-  color: #FAB885;
+a:focus,
+a:active {
+  color: #fab885;
 }
 
 .main-container {
@@ -58,15 +59,16 @@ table {
   width: 400px;
   border-collapse: collapse;
   margin: 1rem 0;
-  border: 1px solid #B14C31;
+  border: 1px solid #e06322;
 }
 
 th {
-  background-color: #B14C31;
+  background-color: #e06322;
   color: #f8f8f8;
 }
 
-th, td {
+th,
+td {
   font-weight: bold;
   padding: 0.5rem;
   text-align: left;
@@ -75,7 +77,7 @@ th, td {
 hr {
   width: 50px;
   border: none;
-  border-top: 5px dotted #B14C31;
+  border-top: 5px dotted #e06322;
 }
 
 /* .payment-info {
@@ -96,7 +98,7 @@ hr {
 }
 
 .row-header {
-  background-color: #B14C31;
+  background-color: #e06322;
   color: #f8f8f8;
 }
 

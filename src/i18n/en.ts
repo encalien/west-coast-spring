@@ -72,19 +72,11 @@ const en = {
           ],
         },
         {
-          name: "Christina",
-          src: "/images/christina.png",
+          name: "Jasmin",
+          src: "/images/jasmin.jpg",
           description: [
-            "Christina was just a small child when ballet sparked her passion for dancing. Since then she also developed a keen interest for couple dancing, starting with ballroom, which later on moved her to pursue and finish a professional education as certified dance instructor.",
-            "When Christina discovered West Coast Swing, she was immediately hooked and invested countless hours to study the dance. In order to uncover as many of its facets as possible she traveled many countries and took up many of the region specialities in style.",
-            "While most dancers excell in one role Christina mastered both leading and following and is one of the few dancers competing in the WSDC Advanced division in both roles. Her unique combination of skills allow her to lead with special attention to her follower, and influence and co-creating the dance when following.",
-            "\n\n",
-            "Together Tobi and Christina value expression of partnership through joint movements, which they further elevate with their individual styling and powerful setups. They are at the forefront of the recently termed 'German Connection', embracing constant connection and all the possibilities that come with it.",
-          ],
-        },
-        {
-          description: [
-            "Together Tobi and Christina value expression of partnership through joint movements, which they further elevate with their individual styling and powerful setups. They are at the forefront of the recently termed 'German Connection', embracing constant connection and all the possibilities that come with it.",
+            "Jasmin discovered her passion for dance at the age of 14, starting with couple dance courses in Germany and progressing to Latin and ballroom in a dance sports club, training up to four times a week. In 2019, she found West Coast Swing and was immediately captivated by its creativity and freedom. After only four months, she focused entirely on WCS, attending events and immersing herself in the community. Despite a pause due to COVID, she reignited her journey in Vienna in 2022, taking weekly classes and private lessons to advance her skills.",
+            "Since then, she has competed in 12 countries across three continents, connecting with communities worldwide. International events are where she continues to grow as a dancer, learning from renowned teachers and embracing the joy of social dancing. Her musical background—playing violin since childhood and majoring in music in high school—enhances her connection to musicality and detail in WCS. As a teacher, her goal is to share the fun and creativity of West Coast Swing, passing on her passion and love for the intricacies of the dance.",
           ],
         },
       ],
@@ -115,7 +107,7 @@ const en = {
             {
               time: "21.00 - 02.00",
               topic: "Party",
-              description: "Entrance fee included in Full pass.",
+              description: "Entrance fee of 5 eur - included in Full pass.",
               class: "party",
             },
           ],
@@ -191,19 +183,19 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers based on the time when participant's registration is ACCEPTED.",
-        "Early bird price is valid up to and including July 14, normal bird price between July 14 and August 4, and late bird price from August 5. With every tier the workshop price will rise by 10 euros.",
+        "Early bird price is valid up to and including July 14, normal bird price between July 15 and August 4, and late bird price from August 5. With every tier the workshop price will rise by 10 euros.",
         "Registration fee must be fully paid within 14 days of registration acceptance for the price and the registration to stay valid.",
       ],
-      priceTier: "Early Bird",
+      priceTier: "Late Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "60 euros",
+          price: "80 euros",
           includes: ["6 hours of workshops", "entrance to both parties"],
         },
         {
           title: "Saturday Pass",
-          price: "40 euros",
+          price: "60 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance to Saturday party",
@@ -262,7 +254,7 @@ const en = {
     pageTitle: "Registration",
     opensSoonText: "Registration opens soon.",
     registrationInfoText:
-      'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
+      'Please read the following <a href="https://fallfocuswcs.dance/en/terms-and-conditions">Terms and Conditions</a> before registering.',
     loading: "Loading Registration form...",
   },
   notFound: {

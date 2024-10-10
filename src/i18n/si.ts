@@ -72,19 +72,11 @@ const si = {
           ],
         },
         {
-          name: "Christina",
-          src: "/images/christina.png",
+          name: "Jasmin",
+          src: "/images/jasmin.jpg",
           description: [
-            "Christina je bila še majhna, ko je balet vžgal njeno strast do plesa. Od takrat je razvila tudi močno zanimanje za ples v parih, začela je z družabnim plesom, kar jo je kasneje spodbudilo k poklicni izobrazbi kot certificirana plesna inštruktorica.",
-            "Ko je Christina odkrila west coast swing, jo je ta takoj pritegnil in vložila je nešteto ur v študij plesa. Da bi odkrila čim več njegovih vidikov, je potovala po številnih državah in prevzela mnoge regijske posebnosti v slogu.",
-            "Medtem ko večina plesalcev izstopa v eni vlogi, Christina obvlada tako vodenje kot sledenje in je ena redkih plesalk, ki tekmuje v WSDC Advanced diviziji v obeh vlogah. Njena edinstvena kombinacija veščin ji omogoča, da vodi s posebno pozornostjo do svojega partnerja in vpliva na sooblikovanje plesa, kadar sledi.",
-            "\n\n",
-            "Skupaj Tobi in Christina cenita izražanje partnerstva skozi skupne gibe, kar še dodatno nadgrajujeta s svojim individualnim stilom. Sta v ospredju nedavno poimenovane 'nemške povezave', ki temelji na stalni povezavi in izkorišča vse možnosti, ki jih ta prinaša.",
-          ],
-        },
-        {
-          description: [
-            "Skupaj Tobi in Christina cenita izražanje partnerstva skozi skupne gibe, kar še dodatno nadgrajujeta s svojim individualnim stilom. Sta v ospredju nedavno poimenovane 'nemške povezave', ki temelji na stalni povezavi in izkorišča vse možnosti, ki jih ta prinaša.",
+            "Svojo strast do plesa je odkrila pri 14 letih, ko je začela s tečaji plesov v parih v Nemčiji in nadaljevala s latinskoameriškimi in standardnimi plesi v plesnem športnem klubu, kjer je trenirala do štirikrat na teden. Leta 2019 je odkrila West Coast Swing in jo je takoj očarala njegova ustvarjalnost in svoboda. Že po štirih mesecih se je popolnoma osredotočila na WCS, začela obiskovati dogodke in se poglobila v plesno skupnost. Kljub premoru zaradi COVID-a je svojo plesno pot ponovno oživila leta 2022 na Dunaju, kjer je obiskovala tedenske tečaje in zasebne ure, da bi izpopolnila svoje veščine.",
+            "Od takrat je tekmovala v 12 državah na treh kontinentih in se povezovala s skupnostmi po vsem svetu.Na mednarodnih dogodkih še naprej raste kot plesalka, uči se od priznanih učiteljev in uživa v družabnem plesu.Njeno glasbeno ozadje—igranje violine od otroštva ter osredotočenost na glasbo v srednji šoli—poglablja njeno povezavo z muzikalnostjo in pozornostjo do detajlov v WCS.Kot učiteljica si prizadeva deliti zabavo in ustvarjalnost West Coast Swinga ter prenašati svojo strast in ljubezen do posebnosti tega plesa.",
           ],
         },
       ],
@@ -115,7 +107,8 @@ const si = {
             {
               time: "21.00 - 02.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vstopnice Vikend paket.",
+              description:
+                "Vstopnina 5 evr - vključena v ceno vstopnice Vikend paket.",
               class: "party",
             },
           ],
@@ -191,18 +184,19 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih glede na datum, ko je prijava SPREJETA.",
-        "Najnižja cena velja za prijave sprejete do 14. julija, srednja za prijave sprejete med 14. julijem in 4. avgustom in zadnja cena za prijave prejete po 4. avgustu. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
+        "Najnižja cena velja za prijave sprejete do 14. julija, srednja za prijave sprejete med 15. julijem in 4. avgustom in zadnja cena za prijave ssprejete po 4. avgustu. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
+        "Vstopnica mora biti plačana v roku 14 od sprejetja prijave, da cena ostane veljavna.",
       ],
-      priceTier: "Prva cena",
+      priceTier: "Zadnja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "60 evr",
+          price: "80 evr",
           includes: ["6 ur delavnic", "vstop na obe zabavi"],
         },
         {
           title: "Sobotni paket",
-          price: "40 evr",
+          price: "60 evr",
           includes: ["3 ure delavnic v soboto", "vstop na sobotno zabavo"],
         },
       ],
@@ -258,7 +252,7 @@ const si = {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre kmalu.",
     registrationInfoText:
-      'Pred prijavo preberi <a href="#/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
+      'Pred prijavo preberi <a href="https://fallfocuswcs.dance/si/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
     loading: "Nalaganje obrazca...",
   },
   notFound: {
