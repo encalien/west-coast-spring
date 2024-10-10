@@ -1,4 +1,4 @@
-@import './base.css';
+@import "./base.css";
 
 /* html tags */
 section {
@@ -12,7 +12,12 @@ main {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 1rem;
 }
 
@@ -49,7 +54,8 @@ a:hover {
   filter: brightness(100%);
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   filter: brightness(120%);
 }
 
@@ -102,7 +108,7 @@ hr {
   padding: 1rem;
 }
 
-.grid-row.grid-container{
+.grid-row.grid-container {
   grid-template-columns: 1fr 3fr;
   padding: 0;
 }
@@ -127,7 +133,7 @@ hr {
 
 .btn-primary {
   background-color: var(--dark-1);
-  color: var(--accent-1);
+  color: var(--light);
 }
 
 .btn-primary:hover {
@@ -149,7 +155,7 @@ hr {
 
 .margin-0 {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .center-text {

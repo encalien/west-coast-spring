@@ -12,46 +12,48 @@ import Pricing from "./components/pages/Pricing.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
 
 const routes: any = {
-  '/': Home,
-  '/staff': Staff,
-  '/schedule': Schedule,
-  '/pricing': Pricing,
-  '/location': EventLocation,
-  '/registration': Registration,
-  '/terms-and-conditions': TermsAndConditions
-}
+  "/": Home,
+  "/staff": Staff,
+  "/schedule": Schedule,
+  "/pricing": Pricing,
+  "/location": EventLocation,
+  "/registration": Registration,
+  "/terms-and-conditions": TermsAndConditions,
+};
 
 export default {
   data() {
     return {
-      currentPath: window.location.hash
-    }
+      currentPath: window.location.hash,
+    };
   },
   components: {
     Header,
     Footer,
   },
   created() {
-    if (window.location.href.includes('#')) {
-      this.$router.replace(`/en${window.location.href.split('#')[1]}`);
+    if (window.location.href.includes("#")) {
+      this.$router.replace(`/en${window.location.href.split("#")[1]}`);
       return;
     }
 
     if (window.location.pathname === "/") {
-      this.$router.replace('/en');
+      this.$router.replace("/en");
     }
   },
-  watch:{
+  watch: {
     $route() {
-      let lang = typeof(this.$route.params.lang) === 'string' ? this.$route.params.lang : 'en';
-      this.$store.commit('changeLang', lang);
+      let lang =
+        typeof this.$route.params.lang === "string"
+          ? this.$route.params.lang
+          : "en";
+      this.$store.commit("changeLang", lang);
       this.$i18n.locale = this.$store.state.lang;
       window.scrollTo(0, 0);
-    }
+    },
   },
-  computed: {
-  }
-}
+  computed: {},
+};
 </script>
 
 <template>
@@ -62,6 +64,4 @@ export default {
   <Footer />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
