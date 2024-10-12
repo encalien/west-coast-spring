@@ -123,13 +123,18 @@ export default {
           {{ $t("location.pageTitle") }}
         </router-link>
       </div>
-      <!-- <div class="flex-item menu-item" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-      <router-link :to="`/${$store.state.lang}/registration`" class="menu-item-link">
-        {{ $t('registration.pageTitle') }}
-      </router-link>
-    </div> -->
+      <div
+        class="flex-item menu-item"
+        :class="{ active: isMobileMenuOpen }"
+        @click="closeAllMenus()"
+      >
+        <router-link
+          :to="`/${$store.state.lang}/registration`"
+          class="menu-item-link"
+        >
+          {{ $t("registration.pageTitle") }}
+        </router-link>
+      </div>
       <div
         id="social-icons"
         class="menu-item flex-container flex-container-row"

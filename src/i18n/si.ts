@@ -2,7 +2,7 @@ const si = {
   event: {
     name: "Winter Westie Weekend",
     location: "Ljubljana",
-    date: "16. - 18. februar 2024",
+    date: "31. 1. - 2. 2. 2024",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu.",
   },
@@ -11,7 +11,7 @@ const si = {
     email: "wcsslo.wixsite{'@'}gmail.com",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/758279966129500",
+    facebook: "https://www.facebook.com/events/916869680320633",
     instagram: "",
   },
   home: {
@@ -89,7 +89,7 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 16. februar",
+          title: "Petek, 31. januar",
           items: [
             {
               time: "20.00 - 21.00",
@@ -107,7 +107,7 @@ const si = {
           ],
         },
         {
-          title: "Sobota, 17. februar",
+          title: "Sobota, 1. februar",
           items: [
             {
               time: "12.00 - 13.00",
@@ -142,7 +142,7 @@ const si = {
           ],
         },
         {
-          title: "Nedelja, 18. februar",
+          title: "Nedelja, 2. februar",
           items: [
             {
               time: "12.00 - 13.00",
