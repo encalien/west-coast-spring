@@ -1,11 +1,12 @@
-@import './main.css';
+@import "./main.css";
 body {
   width: 100vw;
+  background-color: white;
 }
 
 main {
   margin: 3rem 2rem;
-  padding: 2rem
+  padding: 2rem;
 }
 
 header > img {
@@ -15,6 +16,14 @@ header > img {
 p {
   margin-bottom: 0;
   margin-top: 1rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #2778ba;
 }
 
 .main-container {
@@ -39,15 +48,16 @@ table {
   width: 400px;
   border-collapse: collapse;
   margin: 1rem 0;
-  border: 1px solid #211E52;
+  border: 1px solid #2778ba;
 }
 
 th {
-  background-color: #211E52;
+  background-color: #2778ba;
   color: #f8f8f8;
 }
 
-th, td {
+th,
+td {
   font-weight: bold;
   padding: 0.5rem;
   text-align: left;
@@ -56,8 +66,7 @@ th, td {
 hr {
   width: 50px;
   border: none;
-  border-top: 5px dotted #211E52;
-
+  border-top: 5px dotted #2778ba;
 }
 
 /* .payment-info {
@@ -78,7 +87,7 @@ hr {
 }
 
 .row-header {
-  background-color: #211E52;
+  background-color: #2778ba;
   color: #f8f8f8;
 }
 
