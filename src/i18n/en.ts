@@ -172,16 +172,16 @@ const en = {
         "For this event we will have 3 price tiers - Early Bird, Normal Bird and Late Bird.",
         "Early bird price will be offered to first 10 accepted participants (regardless of pass type), normal bird price to the next 10 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros.",
       ],
-      priceTier: "Early Bird",
+      priceTier: "Normal Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "60 euros",
+          price: "70 euros",
           includes: ["6 hours of workshops", "entrance fee to both parties"],
         },
         {
           title: "Saturday Pass",
-          price: "40 euros",
+          price: "50 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance fee to Saturday party",
@@ -235,22 +235,22 @@ const en = {
         {
           name: "Intercontinental *****",
           distance: "5 min walk",
-          url: "https://www.booking.com/Share-aDpENI",
+          url: "https://www.booking.com/Share-9WeZUcr",
         },
         {
-          name: "Central hotel ***",
+          name: "ibis Styles ***",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-fzbHjV",
+        },
+        {
+          name: "Center ***",
           distance: "10 min walk",
-          url: "https://www.booking.com/Share-heW9iDT",
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min walk",
-          url: "https://www.booking.com/Share-f8UiHw",
+          url: "https://www.booking.com/Share-hnuGHTm",
         },
         {
           name: "Park ***",
           distance: "15 min walk",
-          url: "https://www.booking.com/Share-cQFt8l",
+          url: "https://www.booking.com/Share-WgvTTks",
         },
       ],
     },

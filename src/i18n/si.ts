@@ -172,16 +172,16 @@ const si = {
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih - Prva cena, Srednja cena, Zadnja cena.",
         "Najnižja cena velja za prvih 10 sprejetih prijav (ne glede na vrsto vstopnice), srednja za naslednjih 10 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
       ],
-      priceTier: "Prva cena",
+      priceTier: "Srednja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "60 evr",
+          price: "70 evr",
           includes: ["6 ur delavnic", "vstopnina za obe zabavi"],
         },
         {
           title: "Sobotni paket",
-          price: "40 evr",
+          price: "50 evr",
           includes: ["3 ure delavnic v soboto", "vstopnina za sobotno zabavo"],
         },
       ],
@@ -231,23 +231,23 @@ const si = {
       list: [
         {
           name: "Intercontinental *****",
-          distance: "5 min hoje",
-          url: "https://www.booking.com/Share-aDpENI",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-9WeZUcr",
         },
         {
-          name: "Central hotel ***",
-          distance: "10 min hoje",
-          url: "https://www.booking.com/Share-heW9iDT",
+          name: "ibis Styles ***",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-fzbHjV",
         },
         {
-          name: "City hotel **",
-          distance: "13 min hoje",
-          url: "https://www.booking.com/Share-f8UiHw",
+          name: "Center ***",
+          distance: "10 min walk",
+          url: "https://www.booking.com/Share-hnuGHTm",
         },
         {
           name: "Park ***",
-          distance: "15 min hoje",
-          url: "https://www.booking.com/Share-cQFt8l",
+          distance: "15 min walk",
+          url: "https://www.booking.com/Share-WgvTTks",
         },
       ],
     },

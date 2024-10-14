@@ -81,7 +81,7 @@ export default {
 }
 
 .bg-2 {
-  background-color: var(--accent-2);
+  background-color: var(--accent-3);
 }
 
 .price-tier-band {
