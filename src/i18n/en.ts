@@ -176,12 +176,12 @@ const en = {
       passes: [
         {
           title: "Full Pass",
-          price: "70 euros",
+          price: "80 euros",
           includes: ["6 hours of workshops", "entrance fee to both parties"],
         },
         {
           title: "Saturday Pass",
-          price: "50 euros",
+          price: "60 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance fee to Saturday party",
