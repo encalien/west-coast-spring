@@ -80,7 +80,7 @@ const si = {
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
+        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, sugar tuck, left side pass, underarm pass, whip in starter step) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
         "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto.",
       ],
     },
@@ -92,14 +92,14 @@ const si = {
           title: "Petek, 31. januar",
           items: [
             {
-              time: "20.00 - 21.00",
-              topic: "Back to Basics",
+              time: "20:00 - 21:00",
+              topic: "Back to Basics z Juretom",
               description:
-                "Vstopnina vključena v ceno Vikend paketa in vstopnino petkove zabave.",
+                "Vstopnina vključena v ceno Vikend paketa in v vstopnino petkove zabave.",
               class: "class",
             },
             {
-              time: "20.00 - 01.00",
+              time: "20:00 - 01:00",
               topic: "Zabava",
               description: "Vstopnina 5 evr - vključena v ceno Vikend paketa.",
               class: "party",
@@ -110,13 +110,13 @@ const si = {
           title: "Sobota, 1. februar",
           items: [
             {
-              time: "12.00 - 13.00",
+              time: "12:00 - 13:00",
               topic: "Delavnica",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
+              time: "13:15 - 14:15",
               topic: "Delavnica",
               description: "",
               class: "class",
@@ -128,15 +128,15 @@ const si = {
               class: "break",
             },
             {
-              time: "15.30 - 16.30",
+              time: "15:30 - 16:30",
               topic: "Delavnica",
               description: "",
               class: "class",
             },
             {
-              time: "20.00 - 03.00",
+              time: "20:00 - 03:00",
               topic: "Zabava v Dancing Buddha",
-              description: "Vstopnina vključena v ceno obeh paketov.",
+              description: "Vstopnina 5 evr - vključena v ceno obeh paketov.",
               class: "party",
             },
           ],
@@ -145,13 +145,13 @@ const si = {
           title: "Nedelja, 2. februar",
           items: [
             {
-              time: "12.00 - 13.00",
+              time: "12:00 - 13:00",
               topic: "Delavnica",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
+              time: "13:15 - 14:15",
               topic: "Delavnica",
               description: "",
               class: "class",
@@ -161,6 +161,12 @@ const si = {
               topic: "Westie kosilo",
               description: "",
               class: "break",
+            },
+            {
+              time: "20:00 - 23:00",
+              topic: "Zaključna zabava",
+              description: "Vstop prost.",
+              class: "party",
             },
           ],
         },

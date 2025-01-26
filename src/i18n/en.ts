@@ -80,7 +80,7 @@ const en = {
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and lead-follow concepts.",
+        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, sugar tuck, left side pass, underarm pass, whip and starter step) and lead-follow concepts.",
         "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday.",
       ],
     },
@@ -92,14 +92,14 @@ const en = {
           title: "Friday, January 31",
           items: [
             {
-              time: "20.00 - 21.00",
-              topic: "Back to Basics (teacher TBA)",
+              time: "20:00 - 21:00",
+              topic: "Back to Basics with Jure",
               description:
                 "Included in Full pass, as well as Friday party entrance fee.",
               class: "class",
             },
             {
-              time: "21.00 - 01.00",
+              time: "21:00 - 01:00",
               topic: "Party",
               description: "Entrance fee 5 eur - included in Full pass.",
               class: "party",
@@ -110,13 +110,13 @@ const en = {
           title: "Saturday, February 1",
           items: [
             {
-              time: "12.00 - 13.00",
+              time: "12:00 - 13:00",
               topic: "Class",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
+              time: "13:15 - 14:15",
               topic: "Class",
               description: "",
               class: "class",
@@ -128,15 +128,15 @@ const en = {
               class: "break",
             },
             {
-              time: "15.30 - 16.30",
+              time: "15:30 - 16:30",
               topic: "Class",
               description: "",
               class: "class",
             },
             {
-              time: "20.00 - 03.00",
+              time: "20:00 - 03:00",
               topic: "Party",
-              description: "Entrance fee included in all passes.",
+              description: "Entrance fee 5 eur - included in all passes.",
               class: "party",
             },
           ],
@@ -145,13 +145,13 @@ const en = {
           title: "Sunday, February 2",
           items: [
             {
-              time: "12.00 - 13.00",
+              time: "12:00 - 13:00",
               topic: "Class",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
+              time: "13:15 - 14:15",
               topic: "Class",
               description: "",
               class: "class",
@@ -161,6 +161,12 @@ const en = {
               topic: "Westie Lunch",
               description: "",
               class: "break",
+            },
+            {
+              time: "20:00 - 23:00",
+              topic: "Afterparty",
+              description: "No entrance fee - open",
+              class: "party",
             },
           ],
         },
