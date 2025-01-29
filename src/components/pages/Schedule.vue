@@ -80,7 +80,7 @@ h3.grid-row {
 }
 
 .party {
-  background-color: var(--accent-2);
+  background-color: var(--accent-3);
   color: var(--black-soft);
 }
 
